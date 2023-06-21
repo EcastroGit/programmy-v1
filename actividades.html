@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+	<html lang="es">
+		<head>
+		
+			<meta charset="UTF-8">
+			<meta http-equiv="X-UA-compatible" content="IE=edge">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<meta name="description" content="">
+			<meta name="keywords" content="">
+			<meta name="autor" content="Esteban Castro C">
+			<title>Actividades | Programmy</title>
+			<!-- styles -->
+			<link href="styles/main.css" rel="stylesheet" type="text/css">
+			<link href="styles/actividades.css" rel="stylesheet" type="text/css">
+			<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+			<!-- bootstrap -->
+			<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+			<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+			<!-- scripts -->
+			<script defer src="scripts/header-footer.js" type="text/javascript"></script>
+			<script defer src="scripts/menu-movil.js" type="text/javascript"></script>
+			<script defer src="https://kit.fontawesome.com/5d38027bfa.js" crossorigin="anonymous"></script>
+			<script defer src="scripts/actividades.js" type="text/javascript"></script>
+			<script defer src="scripts/login.js" type="text/javascript"></script>
+			<!-- Google tag (gtag.js) -->
+			<script async src="https://www.googletagmanager.com/gtag/js?id=G-QNYPT3GJVV"></script>
+			<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+
+			gtag('config', 'G-QNYPT3GJVV');
+			</script>
+			<!-- bootstrap js -->
+			<script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+		
+		</head>
+		
+		<body id="body">
+			
+			<div id="login"></div>
+			<header id="header"></header>
+			
+			<main id="container">
+				
+				<div class="activity-title">
+					<h2>Drag & Drop</h1>
+					<br />
+					<p>Agrupa los lenguajes y frameworks en la categoría correspondiente hasta obtener el resultado correcto. 
+						(Disponible solo en versión de escritorio)</p>
+					<br/>
+				</div>
+				
+				<div id="languages-container">
+				
+					
+					<div id="caja1" class="caja" >
+						
+						<p class="label">LENGUAJES</p>
+						
+						<img src ="images/actividades/lenguajes/html5.png" alt="" class="lenguaje html" />
+						<img src ="images/actividades/lenguajes/python.png" alt="" class="lenguaje python" />
+						<img src ="images/actividades/lenguajes/css3.png" alt="" class="lenguaje css" />
+						<img src ="images/actividades/lenguajes/mongodb.png" alt="" class="lenguaje mongodb" />
+						<img src ="images/actividades/lenguajes/react-js.png" alt="" class="lenguaje react" />
+						<img src ="images/actividades/lenguajes/go.png" alt="" class="lenguaje go" />
+						<img src ="images/actividades/lenguajes/angular-js.png" alt="" class="lenguaje angular" />
+						<img src ="images/actividades/lenguajes/bootstrap.png" alt="" class="lenguaje bootstrap" />
+						<img src ="images/actividades/lenguajes/javascript.png" alt="" class="lenguaje javascript" />
+						<img src ="images/actividades/lenguajes/php.png" alt="" class="lenguaje php" />
+						<img src ="images/actividades/lenguajes/mysql.png" alt="" class="lenguaje mysql" />
+						<img src ="" alt="" class="lenguaje" />
+						
+						<img src ="" alt="" class="lenguaje" />
+					</div>
+					
+					
+					<div id="column">
+					
+						<div id="caja2" class="caja">
+						
+							<p class="label">FRONT END</p>
+							<p id="check1"></p>
+						
+						</div>
+					
+						<div id="caja3" class="caja">
+						
+							<p class="label">BACK END</p>
+							<p id="check2"></p>
+							
+						</div>
+						
+					</div>
+					
+				</div>
+				
+				<div class="activity-title">
+					<h2>Selección múltiple</h1>
+					<br />
+					<p>Lee las preguntas y selecciona la respuesta correcta para cada opción.</p>
+					<br/>
+				</div>
+				
+				<div id="actividad-preguntas">
+				
+					<div class="pregunta">
+						<p>1. ¿Que es el desarrollo frontend?</p>
+						<br/>
+				
+						<ul class="opciones">
+						<li>
+						<input type="radio" id="q1-opcion1" name="respuesta1" value="q1-opcion1">
+						<label for="q1-opcion1">Son las tecnologías con las que se construye la interfaz 
+						de usuario</label>
+						</li>
+						<li>
+						<input type="radio" id="q1-opcion2" name="respuesta1" value="q1-opcion2">
+						<label for="q1-opcion2">Es un lenguaje de programación</label>
+						</li>
+						<li>
+						<input type="radio" id="q1-opcion3" name="respuesta1" value="q1-opcion3">
+						<label for="q1-opcion3">Es la tecnología con la que se manejan las bases de datos</label>
+						</li>
+						<li>
+						<input type="radio" id="q1-opcion4" name="respuesta1" value="q1-opcion4">
+						<label for="q1-opcion4">es una metodología de desarrollo</label>
+						</li>
+						</ul>
+						<span id="mensaje1" class="q-mensajes"></span>
+					</div>
+					
+					<div class="pregunta">
+						<p>2. ¿Que es el desarrollo backend?</p>
+						<br/>
+				
+						<ul class="opciones">
+						<li>
+						<input type="radio" id="q2-opcion1" name="respuesta2" value="q2-opcion1">
+						<label for="q2-opcion1">Es una tecnología con la que se hacen respaldos de la información</label>
+						</li>
+						<li>
+						<input type="radio" id="q2-opcion2" name="respuesta2" value="q2-opcion2">
+						<label for="q2-opcion2">Es un lenguaje de programación</label>
+						</li>
+						<li>
+						<input type="radio" id="q2-opcion3" name="respuesta2" value="q2-opcion3">
+						<label for="q2-opcion3">Es un área del desarrollo web que se encarga de programar del lado del servidor</label>
+						</li>
+						<li>
+						<input type="radio" id="q2-opcion4" name="respuesta2" value="q2-opcion4">
+						<label for="q2-opcion4">Es un motor de bases de datos</label>
+						</li>
+						</ul>
+						<span id="mensaje2" class="q-mensajes"></span>
+					</div>
+					
+					<div class="pregunta">
+						<p>3. ¿Que son las bases de datos?</p>
+						<br/>
+				
+						<ul class="opciones">
+						<li>
+						<input type="radio" id="q3-opcion1" name="respuesta3" value="q3-opcion1">
+						<label for="q3-opcion1">Son centros de computo donde se almacena información</label>
+						</li>
+						<li>
+						<input type="radio" id="q3-opcion2" name="respuesta3" value="q3-opcion2">
+						<label for="q3-opcion2">Es un tipo de software con el cuál se almacenan datos en una app</label>
+						</li>
+						<li>
+						<input type="radio" id="q3-opcion3" name="respuesta3" value="q3-opcion3">
+						<label for="q3-opcion3">Es un tipo de disco duro o unidad de almacenamiento especial</label>
+						</li>
+						<li>
+						<input type="radio" id="q3-opcion4" name="respuesta3" value="q3-opcion4">
+						<label for="q3-opcion4">Todas las anteriores</label>
+						</li>
+						</ul>
+						<span id="mensaje3" class="q-mensajes"></span>
+					</div>
+					
+					<div class="pregunta">
+						<p>4. ¿Que es DevOps?</p>
+						<br/>
+				
+						<ul class="opciones">
+						<li>
+						<input type="radio" id="q4-opcion1" name="respuesta4" value="q4-opcion1">
+						<label for="q4-opcion1">Es un software de realidad virtual</label>
+						</li>
+						<li>
+						<input type="radio" id="q4-opcion2" name="respuesta4" value="q4-opcion2">
+						<label for="q4-opcion2">Es la rama de la programación encargada del despliegue a producción de las apps</label>
+						</li>
+						<li>
+						<input type="radio" id="q4-opcion3" name="respuesta4" value="q4-opcion3">
+						<label for="q4-opcion3">Es la profesión encargada de el mantenimiento de el hardware de un centro de datos</label>
+						</li>
+						<li>
+						<input type="radio" id="q4-opcion4" name="respuesta4" value="q4-opcion4">
+						<label for="q4-opcion4">Todas las anteriores</label>
+						</li>
+						</ul>
+						<span id="mensaje4" class="q-mensajes"></span>
+					</div>
+				
+				</div>
+				
+				<br />
+				
+				<div class="container-btn"><button id="boton" class="respuesta-btn" onclick="verificarRespuestas()">Responder</button></div>
+				
+				<br />
+				
+				<div class="activity-title">
+					<h2>Otra Actividad</h1>
+					<br />
+					<p>Este sección esta reservada para desarrollar otro juego</p>
+					<br/>
+				</div>
+				
+				<div>
+				
+				
+				</div>
+			
+			</main>
+			
+			<footer id="footer"></footer>
+			
+		</body>
+	</html>
+			

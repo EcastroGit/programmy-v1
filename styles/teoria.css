@@ -1,0 +1,197 @@
+
+/* CONTENEDOR GENERAL */
+
+#content-grid {
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: row;
+	justify-content: center;
+}
+
+/* BARRA LATERAL IZQUIERDA */
+
+#explorer-nav {
+	Color: black;
+	width: 30%;
+	padding: 10px;
+	margin: 0px;
+	
+}
+.aside-nav {
+	margin-top: 10em;
+}
+.aside-nav p  {
+	margin: 10px;
+}
+.aside-nav li, .aside-nav p{
+	text-decoration: none;
+	list-style-type: none;
+	cursor: context-menu;
+}
+.aside-nav p:hover, .aside-nav li:hover {
+	color: #00CCFF;
+	cursor: pointer;
+	
+}
+/* listas desplegables  */
+
+.hide {
+	display: none;
+}
+.tema-principal {
+	font-weight: bold;
+}
+
+/* CONTENEDOR DE TEORÍA */
+
+#generador-teoria {
+	width: 100%;
+	margin: 0px;
+	padding: 10px;
+}
+#generador-teoria h2 {
+	font-size: 2em;
+	margin-bottom: 1em;
+	margin-top: 2em;
+}
+#generador-teoria p {
+	font-size: 1em;
+	line-height: 1.5;
+	margin-bottom: 3em;
+}
+#generador-teoria br {
+	margin-bottom: 1em;
+}
+/* SECCIÓN LATERAL DERECHA */
+
+#aside {
+	width: 30%;
+	padding: 10px;
+	margin: 0px;
+	margin-top: 4em;
+}
+.aside-title {
+	color: black;
+	margin: auto;
+	height: auto;
+	width: 200px;
+}
+
+.aside-element {
+	color: #000;
+	font-weight: 600px;
+	margin: 10px auto;
+	height: auto;
+	width: 200px;
+}
+.aside-element:hover {
+	transform: scale(1.05);
+	cursor: pointer;
+}
+
+/* INFOGRAFIAS */
+
+
+/* Estilos para las imagen miniatura */
+.info-img {
+  display: block;
+  margin: 20px auto;
+  width: 200px;
+  height: auto;
+  cursor: pointer;
+}
+
+/* Estilos para la imagen modal */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+/* Estilos para el contenido de la imagen modal */
+.modal-content {
+  display: block;
+  margin: auto;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Estilos para el botón de cerrar */
+.close {
+ /*  position: absolute; */
+  text-align: center;
+  top: 15px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Estilos para la leyenda de la imagen */
+#caption {
+  display: block;
+  text-align: center;
+  color: white;
+  padding: 10px 0;
+  height: 150px;
+}
+
+
+/* RESPONSIVE DESIGN */
+
+@media screen and (max-width: 1000px){
+	
+	#content-grid {
+		flex-direction: column;
+	}
+    #explorer-nav, #aside {
+		width: auto;
+	}	
+	.aside-nav {
+		margin: auto;
+	}
+	#aside-section {
+		display: flex;
+		flex-flow: row wrap;
+		/* si pusiera margenes  automáticos a los lados el justify-content no funcionaría */
+		margin: 10px 10px 10px;
+		justify-content: center;
+	}
+	.aside-element {
+		margin: 10px 10px 10px;
+	}
+	#teoria-body {
+		font-size: 3em;
+		padding: 0px;
+		margin-bottom: 1em;
+	}
+}
+
+@media screen and (max-width: 800px){
+
+}
+
+@media screen and (max-width: 600px){
+	
+}
+
+@media screen and (max-width: 450px){
+	#explorer-nav {
+		height: auto;
+	}
+
+}
