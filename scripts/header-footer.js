@@ -94,15 +94,15 @@ footer.innerHTML = `
 	<div class="footer-element">
 		<h3>Sitio</h3>
 		<hr />
-		<p><a>Inicio</a></p>
-		<p><a>Teoría</a></p>
-		<p><a>Actividades</a></p>
-		<p><a>Recursos</a></p>
+		<p><a href="index.html">Inicio</a></p>
+		<p><a href="teoria.html">Teoría</a></p>
+		<p><a href="actividades.html">Actividades</a></p>
+		<p><a href="recursos.html">Recursos</a></p>
 	</div>
 	<div class="footer-element">
 		<h3>Políticas</h3>
 		<hr />
-		<p><a>Política de privacidad</a></p>
+		<p><a href="privacidad.html">Política de privacidad</a></p>
 		<p><a>Términos y condiciones</a></p>
 	</div>
 `;

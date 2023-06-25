@@ -5,14 +5,10 @@
 	border-radius: 5px;
 	background-color: #0099FF;
 	padding: 5px 10px 5px;
-}
-.cta a {
-	text-decoration: none;
 	color: white;
-	margin: 0px;
-	padding: 5px 5px 5px;
-	/* border: 1px solid white; */
+	text-decoration: none;
 }
+
 .cta:hover {
 	background-color: #00FFFF;
 }

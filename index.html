@@ -48,34 +48,33 @@
 		
 		<body id="body">
 		
-			<!-- El login, header y footer son generados con header-footer.js -->
+			<!-- El login, header y footer >> header-footer.js -->
 			
 			<div id="login"></div>
 			<header id="header"></header>
 			
 			<main id="index-main">
 				
-				<!-- BANNER -->
+				<!-- sección del banner-->
 				
 				<div id="banner">
 					
 					<div id="banner-elements">
 						<div class="banner-text">
-							<h1 id="banner-title">Fundamentos del desarrollo web</h1>
-							<p id="banner-description">En <strong>ProgrammY</strong> encuentras información sobre los fundamentos del desarrollo web. 
-							En el sitio se integran diversas características como resposive design,
-							interactividad y generación dinámica con JavaScript, consumo de API y analítica web.</p>
+							<h1 id="banner-title">Descubre los fundamentos del desarrollo web</h1>
+							<p id="banner-description">En <strong>ProgrammY</strong> encuentras recursos útiles para iniciar en el mundo del desarrollo web. 
+							Explora teoría, recomendaciones y actividades que te brindarán bases para iniciar tu camino en el desarrollo web. </p>
 						</div>
 						
 						<div id="banner-cta">
-							<button type="button" class="cta"><a href="teoria.html">Empezar Ya</a></button>
+							<a class="cta" href="teoria.html">Empezar Ya</a>
 						</div>
 						
 					</div>
 				
 				</div>
 				
-				<!-- CAJA DE ICONOS -->
+				<!-- sección de íconos -->
 				
 				<div id="icons-container">
 					
@@ -123,7 +122,7 @@
 					
 				</div>
 				
-				<!-- SECCIÓN DE RECOMENDACIONES -->
+				<!-- sección de recomendaciones -->
 				
 				<div id="recommendations">
 					
@@ -135,10 +134,10 @@
 					
 						<div id="recom-labels">
 						
-							<span id="recom1"><p>Escoge tu lenguaje</p></span>
-							<span id="recom2"><p>Saca tiempo</p></span>
-							<span id="recom3"><p>Practica</p></span>
-							<span id="recom4"><p>Desarrolla proyectos</p></span>
+							<span id="recom1"><p>Investigación</p></span>
+							<span id="recom2"><p>Tiempo</p></span>
+							<span id="recom3"><p>Práctica</p></span>
+							<span id="recom4"><p>Proyectos</p></span>
 							
 						</div>
 					
@@ -157,10 +156,10 @@
 								<p>
 									En el mundo del desarrollo web existen diferentes stacks(grupos) de tecnologías 
 									sobre los cuales se puede construir una aplicación web. Del lado del cliente(frontend),
-									los lenguajes habituales son HTML, CSS y javascript. Por parte del servidor(backend), 
+									los lenguajes habituales son HTML, CSS y JavaScript. Por parte del servidor(backend), 
 									existen múltiples opciones para construir tu aplicación, como python, java, php, etc. Por este motivo, 
-									en primer lugar es importante que investigues un poco y tengas un conocimiento general de que es fontend y backend,
-									para así adquirir un conocimiento general de los lenguajes disponibles en cada especialidad. En <strong>ProgrammY</strong> 
+									en primer lugar es importante que investigues un poco y tengas conocimiento de que es fontend y backend,
+									para así adquirir contexto general de los lenguajes disponibles en cada especialidad. En <strong>ProgrammY</strong> 
 									encuentras teoría y recursos útiles para que empieces a adquirir las bases necesarias para escoger tu especialidad.
 								</p>
 							
@@ -172,13 +171,47 @@
 					
 				</div>
 				
-				<!-- Ejercicio de consumo de API utilizando una API pública de stackoverflow >> stack-exchange-api.js -->
+				<!-- sección informativa -->
+
+				<div id="info-container">
+					<h3>
+						La importancia del desarrollo web
+					</h3>
+
+					<div id="info-section" class="mx-auto">
+
+						<div id="info-image">
+							<img src="images\site\desarrollo-web1.jpg" alt="">
+						</div>
+						<div id="info-text">
+							<p>
+								El desarrollo web es una habilidad fundamental en la era digital
+								pues cada vez son más las empresas que toman conciencia de la importancia de tener
+								presencia en internet, y presentar sus productos y servicios a un mercado global. 
+							</p>
+							<br />
+							<br />
+							<div class="text-center">
+								<a class="cta" href="teoria.html">Aprender más</a>
+							</div>
+						</div>
+					</div>
+
+				</div>
+				
+				<!-- sección de API stackoverflow -->
 				
 				<div id="api">
 					
 					<br />
-					<h2 id="api-title">Artículos de stackoverflow:</h2>
-					<p id="api-description">Esta sección corresponde a una práctica de consumo de API en JavaScript</p>
+					<div id="api-text" class="mx-auto">
+						<h2 id="api-title">Artículos de stackoverflow</h2>
+						<p id="api-description" class="text-start">En la medida que profundices tus conocimientos, te recomendamos investigar fuentes para
+							adquirir nuevas habilidades en el desarrollo web. Aqui te presentamos algunos artículos interesantes publicados en
+							stackoverflow. Estos artículos son tomados de una API pública de stackoverflow, por lo que pueden cambiar constantemente.
+						</p>
+					</div>
+
 					<br />
 					
 					<div id="articles-container">

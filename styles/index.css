@@ -9,7 +9,7 @@
 	height: auto;
 }
 
-/* configuración del banner */
+/* sección del banner */
 
 #banner {
 	display: flex;
@@ -36,7 +36,7 @@
 	margin-bottom: 1em;
 }
 
-/* configuración de los íconos */
+/* sección de los íconos */
 
 #icons-container {
 	background-color: #f0f0f0;
@@ -69,7 +69,7 @@
 	
 }
 
-/* configuración de las recomendaciones */
+/* sección de las recomendaciones */
 
 #recommendations {
 	display: flex;
@@ -128,10 +128,39 @@
 	line-height: 1.5;
 }
 
-/* configuración de la api stackexchange*/
+/* sección informativa */
+
+#info-container {
+	background-color: #f0f0f0;
+	padding: 4rem;
+}
+#info-section {
+	display: flex;
+	flex-flow: row nowrap ;
+	margin: 3rem 3rem 3rem;
+	width: 75%;
+	color: black ;
+}
+#info-image {
+	margin: 1rem 2rem 1rem;
+	width: 100%;
+
+}
+#info-text {
+	margin-top: 1rem;
+	width: 100%;
+}
+#info-image img {
+	width: 100%;
+}
+
+/* sección de la API stacoverflow*/
 
 #api {
 	height: auto;
+}
+#api-text {
+	width: 60%;
 }
 #api-title {
 	margin-top: 2em;
@@ -192,12 +221,33 @@
 	#icons-elements p {
 		font-size: 0.9em;
 	}
+	#info-section {
+		display: flex;
+		flex-flow: row wrap ;
+		
+		width: 100%;
+		color: black ;
+	}
+	#info-image img {
+		width: 100%;
+	}
+	#api-text {
+		width: 80%;
+	}
 }
 
 @media screen and (max-width: 600px) {
 	
 	#recom-container {
 		width: 100%;
+	}
+	#info-section {
+		margin: 2rem 2rem 2rem;
+
+	}
+	#info-text {
+		font-size: 1rem;
+
 	}
 }
 
@@ -208,6 +258,9 @@
 	
 	#recom-labels p {
 		font-size: 0.8em;
+	}
+	#api-text {
+		width: 90%;
 	}
 }
 

@@ -1,5 +1,5 @@
 
-/* CONTENEDOR GENERAL */
+/* contenedor general */
 
 #content-grid {
 	display: flex;
@@ -8,7 +8,7 @@
 	justify-content: center;
 }
 
-/* BARRA LATERAL IZQUIERDA */
+/* barra lateral izquierda */
 
 #explorer-nav {
 	Color: black;
@@ -42,7 +42,7 @@
 	font-weight: bold;
 }
 
-/* CONTENEDOR DE TEORÍA */
+/* contenedor deteoría */
 
 #generador-teoria {
 	width: 100%;
@@ -62,7 +62,7 @@
 #generador-teoria br {
 	margin-bottom: 1em;
 }
-/* SECCIÓN LATERAL DERECHA */
+/* sección lateral derecha */
 
 #aside {
 	width: 30%;
@@ -89,7 +89,7 @@
 	cursor: pointer;
 }
 
-/* INFOGRAFIAS */
+/* infografías */
 
 
 /* Estilos para las imagen miniatura */
@@ -151,7 +151,7 @@
 }
 
 
-/* RESPONSIVE DESIGN */
+/* responsive design */
 
 @media screen and (max-width: 1000px){
 	

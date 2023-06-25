@@ -1,8 +1,5 @@
 
-/* ESTILOS GENERALES
-Esta hoja de estilo controla los aspectos generales del sitio y elementos que se repiten en diferentes páginas 
-como el login, header, footer, fuentes, apariencias generales, etc.
- */
+ /* estilos generales del sitio */
 
 * {
 	margin: 0px;
@@ -35,7 +32,7 @@ p, li {
 	font-size: 1em;
 }
 
-/* LOGIN */
+/* login */
 
 #login {
 	display: flex;
@@ -99,7 +96,7 @@ form span {
 	font-size: 15px;
 }
 
-/* HEADER */
+/* header */
 
 header {
 	display: flex;
@@ -173,7 +170,7 @@ header  div {
 	border-top: 2px solid #00FFFF; 
 }
 
-/* MENU MÓVIL */
+/* menu movil */
 
 #bars-menu{
 	display: none; 
@@ -231,16 +228,23 @@ footer {
 	text-align: center;
 	margin: 0px 40px auto;
 	padding: 10px;
+	
 }
+.footer-element a {
+	text-decoration: none;
+	color: white;
+}
+.footer-element a:hover{
+	color: #00FFFF;
+	cursor: pointer;
+}
+
 
 .footer-element i:hover {
 	color: #00FFFF;
 	cursor: pointer;
 }
-.footer-element p:hover  {
-	color: #00FFFF;
-	cursor: pointer;
-}
+
 
 
 /* responsive design */
