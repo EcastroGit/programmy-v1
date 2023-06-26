@@ -22,7 +22,7 @@ const showArticles = (data) => {
 		var articleLink = data.items[i].link;
 		var articleDiv = document.createElement("div");
 		//Se agrega clase de bootstrap para estilizar
-		articleDiv.setAttribute("class", "shadow p-3 mb-5 bg-body-tertiary rounded");
+		articleDiv.setAttribute("class", "article shadow p-3 mb-5 bg-body-tertiary rounded");
 		articleDiv.innerHTML = 
 		
 		`
@@ -36,5 +36,26 @@ const showArticles = (data) => {
 		
 		articlesContainer.appendChild(articleDiv);
 	}
+	
+	// se ocultan algunos artículos para mejorar presentación
+
+	const articles = document.getElementsByClassName("article");
+	
+	for(var i = 4; i < articles.length; i++){
+		articles[i].classList.add("article-none");
+	}
 };
 
+// se crea función para mostrar lista completa de artículos
+
+const articlesBtn = document.querySelector("#articles-btn");
+const articles = document.getElementsByClassName("article");
+
+
+articlesBtn.addEventListener("click", () => {
+	for(var i = 0; i < articles.length; i++){
+	articles[i].classList.remove("article-none")};
+});
+
+
+	
