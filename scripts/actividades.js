@@ -57,7 +57,7 @@ caja3.addEventListener("drop", (ev) => soltar3(ev));
 
 /* PARTE 2: Definiciones y funciones para validar si se agruparon los lenguajes correctamente */
 
-const html = document.querySelector(".html");
+const html = document.querySelector(".html5");
 const css = document.querySelector(".css");
 const javascript = document.querySelector(".javascript");
 const react = document.querySelector(".react");
@@ -165,3 +165,44 @@ function verificarRespuestas() {
   q3();
   q4();
 }
+
+// ACTIVIDAD 3: VERDADERO O FALSO
+
+//se definen los objetos del DOM a utilizar
+
+const vf1Verdadero = document.querySelector("#vf1-verdadero");
+const vf1Falso = document.querySelector("#vf1-falso");
+const vf2Verdadero = document.querySelector("#vf2-verdadero");
+const vf2Falso = document.querySelector("#vf2-falso");
+const vf3Verdadero = document.querySelector("#vf3-verdadero");
+const vf3Falso = document.querySelector("#vf3-falso");
+const vf1Tag = document.querySelector("#vf1-tag");
+const vf2Tag = document.querySelector("#vf2-tag");
+const vf3Tag = document.querySelector("#vf3-tag");
+
+// Se crean las funciones para comprobar la respuesta
+
+vf1Verdadero.addEventListener("click", () => {
+  vf1Tag.innerHTML = "Correcto";
+  vf1Tag.style.color ="green";
+})
+vf1Falso.addEventListener("click", () => {
+  vf1Tag.innerHTML = "Incorrecto";
+  vf1Tag.style.color ="Red";
+})
+vf2Verdadero.addEventListener("click", () => {
+  vf2Tag.innerHTML = "Correcto";
+  vf2Tag.style.color ="green";
+})
+vf2Falso.addEventListener("click", () => {
+  vf2Tag.innerHTML = "Incorrecto";
+  vf2Tag.style.color ="red";
+})
+vf3Verdadero.addEventListener("click", () => {
+  vf3Tag.innerHTML = "Incorrecto: las API permiten intercambio de datos entre dos componentes de software, como por ejemplo el frontend y el backend.";
+  vf3Tag.style.color ="red";
+})
+vf3Falso.addEventListener("click", () => {
+  vf3Tag.innerHTML = "Correcto";
+  vf3Tag.style.color ="green";
+})

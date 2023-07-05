@@ -1,3 +1,24 @@
 main {
 	height: auto;
 }
+
+#cards-container {
+	width: 75%;
+}
+
+/* Responsive design */
+
+@media screen and (max-width: 1000px){
+}
+
+@media screen and (max-width: 800px){	
+}
+
+@media screen and (max-width: 600px){
+}
+
+@media screen and (max-width: 420px){
+	#cards-container {
+		width: 100%;
+	}
+}

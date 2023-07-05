@@ -16,7 +16,7 @@ recom1.addEventListener("click", () => {
 	
 	`<div id="recom-image">
 		
-		<img src="images/recomendaciones/frontend-backend.jpeg" />
+		<img src="images/recomendaciones/frontend-backend.jpeg" alt="desarrollo frontend backend" />
 		
 	</div>
 	
@@ -46,7 +46,7 @@ recom2.addEventListener("click", () => {
 	
 	`<div id="recom-image">
 		
-		<img src="images/recomendaciones/gestion-del-tiempo-estudio.jpg" />
+		<img src="images/recomendaciones/gestion-del-tiempo-estudio.jpg" alt="Gestión del tiempo"/>
 		
 	</div>
 
@@ -77,7 +77,7 @@ recom3.addEventListener("click", () => {
 	
 	`<div id="recom-image">
 		
-		<img src="images/recomendaciones/programacion-practica.jpg" />
+		<img src="images/recomendaciones/programacion-practica.jpg" alt="práctica en la programación"/>
 		
 	</div>
 
@@ -107,7 +107,7 @@ recom4.addEventListener("click", () => {
 	
 	`<div id="recom-image">
 		
-		<img src="images/recomendaciones/hombre-programando.jpg" />
+		<img src="images/recomendaciones/hombre-programando.jpg" alt="hombre programando" />
 		
 	</div>
 

@@ -31,7 +31,19 @@ p, li {
 	font-family: Georgia, Helvetica, Sans-serif;
 	font-size: 1em;
 }
-
+.cta {
+	width: auto;
+	height: auto;
+	font-size: 1.5em;
+	border-radius: 5px;
+	background-color: #0099FF;
+	padding: 5px 10px 5px;
+	color: white;
+	text-decoration: none;
+}
+.cta:hover {
+	background-color: #00FFFF;
+}
 /* login */
 
 #login {
@@ -49,17 +61,20 @@ p, li {
 	padding-right: 20px;
 }
 #login-div2 span {
-	padding: 3px;
+	padding: 2px;
 	margin-right: 2px;
 	margin-left: 3px;
+}
+#login-options span {
+	font-size: 0.8rem;
+	background-color: #696666;
+	border: 2px solid #918c8c;
 }
 #login-start:hover {
 	cursor: pointer;
 	color: #00FFFF; 
 }
-#login-start {
-	border-right: solid white 2px;
-}
+
 .login-inactivo{
 	display: none;
 }
@@ -71,6 +86,7 @@ p, li {
   top: 30%;
   width: 30%;
   height: 50%;
+  border-radius: 2px;
   overflow: auto;
   /* UI gradiente */
 	background: #000000;  /* fallback for old browsers */
@@ -100,7 +116,7 @@ form span {
 
 header {
 	display: flex;
-	flex-flow: row wrap;
+	flex-flow: row nowrap;
 	justify-content: space-evenly;
 	align-content: center;
 	background-color: #333333;
@@ -128,21 +144,55 @@ header  div {
 
 /* barra de búsqueda */
 
-#search-bar-container, .search-bar {
+#search-bar-container, #search-bar {
 	padding: 5px;
 }
-.search-bar input, .search-bar button {
+#search-bar input, .search-bar button {
 	font-size: 1em;
 	color: #000;
 	border-radius: 5px;
-	background-color: rgba(255, 255, 255, 0.5);
+	background-color: rgba(255, 255, 255, 0.6);
 	transition: background-color 1s linear;
 }
-.search-bar input:hover, .search-bar input:focus {
+#search-bar input:hover, #search-bar input:focus {
 	background-color: #FFFFFF
 }
-.search-bar button:hover, .search-bar button:active {
+#search-bar button:hover, #search-bar button:active {
 	background-color: #FFFFFF;
+}
+.search-bar-hidden {
+	display: none;
+}
+#search-form {
+	/* UI gradiente */
+	background: #000000;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	width: 30%;
+	height: 30%;
+	position: fixed;
+	z-index: 1;
+	top:35%;
+	left:35%;
+	border-radius: 2px;
+}
+#search-form-close{
+	font-size: 1.3rem;
+	text-align: right;
+	margin-right: 3%;
+}
+#search-form-close:hover {
+		cursor: pointer;
+		color:#00FFFF;
+}
+#search-icon {
+	color: white;
+	font-size: bold;
+	background-color: #696666;
+}
+#search-icon:hover {
+	color:#00FFFF;
+	cursor: pointer;
 }
 
 /* menu de navegación */
@@ -217,10 +267,13 @@ header  div {
 /* footer */
 
 footer {
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: center;
 	background-color: #333333;
+	padding: 10px;
+}
+#footer-container {
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: center;
 	color: #fff;
 	font-size: medium;
 }
@@ -230,6 +283,9 @@ footer {
 	padding: 10px;
 	
 }
+.footer-element span {
+	margin: 0 7px 0;
+}
 .footer-element a {
 	text-decoration: none;
 	color: white;
@@ -238,14 +294,19 @@ footer {
 	color: #00FFFF;
 	cursor: pointer;
 }
-
-
 .footer-element i:hover {
 	color: #00FFFF;
 	cursor: pointer;
 }
-
-
+.social-icons {
+	text-align: center;
+	color: white;
+	margin-bottom: 1rem;
+}
+.social-icons i:hover {
+	cursor: pointer;
+	color:#00FFFF;
+}
 
 /* responsive design */
 
@@ -259,10 +320,19 @@ footer {
 }
 
 @media screen and (max-width: 800px){
-#login-form {
+
+	#login-form {
 	left: 25%;
 	right: 25%;
 	width: 50%;
+}
+
+#search-form {
+	background-color: rgba(51, 51, 51, 0.9);
+	width: 100%;
+	height:100%;
+	top:0;
+	left:0;
 }
 }
 
@@ -274,9 +344,12 @@ footer {
 	
 	header {
 		display: flex;
-		flex-flow: column wrap;
+		/* flex-flow: column wrap; */
 		justify-content: center;
 		padding-bottom: 20px;
+	}
+	.cta {
+		font-size: 1.2em
 	}
 	/* desaparece el menu de navegación normal  */
 	#list-nav {
@@ -296,9 +369,18 @@ footer {
 }
 
 @media screen and (max-width: 420px){
+#login-options{
+	font-size:0.7rem;
+}
 #login-form {
 	left: 5%;
 	right: 5%;
 	width: 90%;
+}
+#login-div1{
+	width: 30%;
+}
+#login-div2{
+ 	width: 70%;
 }
 }
