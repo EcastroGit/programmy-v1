@@ -97,7 +97,7 @@ header.innerHTML = `
 footer.innerHTML = `
 	<div id="footer-container">
 	
-		<div class="footer-element">
+		<div class="footer-nav">
 			<span><a href="index.html">Inicio</a></span>
 			<span><a href="teoria.html">Teoría</a></span>
 			<span><a href="actividades.html">Actividades</a></span>
@@ -111,9 +111,10 @@ footer.innerHTML = `
 			<i class="bi bi-linkedin" style="font-size: 1.3rem;"></i>
 			<i class="bi bi-youtube" style="font-size: 1.3rem;"></i>
 		</div>
-
-		<div style="text-align:center"><p style="color: white">© Copyright 2023 - Programmy</p></div>
 		<div style="text-align:center"><a style="text-decoration: none; color: white" href="privacidad.html">Política de privacidad</a></div>
+		<div style="text-align:center"><span style="color: white">© Copyright 2023 - Programmy</span></div>
+		<div style="text-align:center">Developed by <strong>Esteban Castro</strong></div>
+		
 	</div>
 `;
 

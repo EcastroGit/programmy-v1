@@ -69,6 +69,7 @@ p, li {
 	font-size: 0.8rem;
 	background-color: #696666;
 	border: 2px solid #918c8c;
+	border-radius: 3px;
 }
 #login-start:hover {
 	cursor: pointer;
@@ -189,6 +190,8 @@ header  div {
 	color: white;
 	font-size: bold;
 	background-color: #696666;
+	border: 2px solid #918c8c;
+	border-radius: 5px;
 }
 #search-icon:hover {
 	color:#00FFFF;
@@ -277,24 +280,21 @@ footer {
 	color: #fff;
 	font-size: medium;
 }
-.footer-element {
-	text-align: center;
-	margin: 0px 40px auto;
-	padding: 10px;
-	
+#footer-container > div {
+	margin: 5px auto 5px;
 }
-.footer-element span {
+.footer-nav span {
 	margin: 0 7px 0;
 }
-.footer-element a {
+.footer-nav a {
 	text-decoration: none;
 	color: white;
 }
-.footer-element a:hover{
+.footer-nav a:hover{
 	color: #00FFFF;
 	cursor: pointer;
 }
-.footer-element i:hover {
+.footer-nav i:hover {
 	color: #00FFFF;
 	cursor: pointer;
 }
