@@ -59,7 +59,7 @@ header.innerHTML = `
 	<div id="search-bar-container">
 		
 		<div class="text-center">
-			<button id="search-icon"><i class="bx bx-search bx-xs"></i></button>
+			<button aria-label="Buscar" id="search-icon"><i class="bx bx-search bx-xs"></i></button>
 		</div> 
 		
 		<div id="search-form" class="search-bar-hidden">
