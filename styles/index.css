@@ -63,12 +63,6 @@
 	margin: 20px 10px 20px;
 	width: 300px;
 }
-#icons-elements div:hover {
-	transform: scale(1.1);
-	transition: 1s linear;
-	cursor: pointer;
-	
-}
 #icons-elements h3 {
 	margin-bottom: 10px;
 	
@@ -124,6 +118,7 @@
 }
 #recom-image img {
 	width: 100%;
+	object-fit: cover;
 }
 #recom-text {
 	padding: 1em;

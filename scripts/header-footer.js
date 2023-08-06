@@ -70,7 +70,7 @@ header.innerHTML = `
 				<p style="color: white; margin-top: 15%">Porfavor introduzca su consulta</p>
 				<form id="search-bar" style="margin-top: 10%" >
 						<input type="text" size="auto" placeholder="buscar" id="buscar" />
-						<button><i class="bi bi-arrow-right"></i></button>
+						<button aria-label="Consultar"><i class="bi bi-arrow-right"></i></button>
 				</form>
 			</div>
 		</div>

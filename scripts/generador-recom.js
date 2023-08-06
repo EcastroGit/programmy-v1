@@ -16,7 +16,7 @@ recom1.addEventListener("click", () => {
 	
 	`<div id="recom-image">
 		
-		<img src="images/recomendaciones/frontend-backend.jpeg" alt="desarrollo frontend backend" />
+		<img src="images/recomendaciones/frontend-backend.webp" alt="desarrollo frontend backend" />
 		
 	</div>
 	
