@@ -1,1 +1,0 @@
-// Se espera en próximas versiones incorporar funciones de backend

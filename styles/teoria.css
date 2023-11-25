@@ -68,7 +68,7 @@
 	width: 30%;
 	padding: 10px;
 	margin: 0px;
-	margin-top: 4em;
+	margin-top: 10em;
 }
 .aside-title {
 	color: black;
@@ -179,10 +179,23 @@
 		padding: 0px;
 		margin-bottom: 1em;
 	}
+	#generador-teoria h2 {
+		font-size: 2em;
+		margin-bottom: 1em;
+		margin-top: 0;
+	}
+	#aside {
+		margin-top: 3em;
+	}
+	#temas-titulo {
+		padding-top: 4em;
+	}
 }
 
 @media screen and (max-width: 800px){
-
+	#aside {
+		margin-top: 2em; 
+	}
 }
 
 @media screen and (max-width: 600px){

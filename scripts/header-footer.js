@@ -81,7 +81,6 @@ header.innerHTML = `
 		<nav id="list-nav">
 			<a href="index.html">Inicio</a>
 			<a href="teoria.html">Teoría</a>
-			<a href="actividades.html">Actividades</a>
 			<a href="recursos.html">Recursos</a>
 		</nav>
 		
@@ -100,17 +99,9 @@ footer.innerHTML = `
 		<div class="footer-nav">
 			<span><a href="index.html">Inicio</a></span>
 			<span><a href="teoria.html">Teoría</a></span>
-			<span><a href="actividades.html">Actividades</a></span>
 			<span><a href="recursos.html">Recursos</a></span>
 		</div>
 	
-		<div class="social-icons">
-			<i class="bi bi-facebook" style="font-size: 1.3rem;"></i>
-			<i class="bi bi-instagram" style="font-size: 1.3rem;"></i>
-			<i class="bi bi-twitter" style="font-size: 1.3rem;"></i>
-			<i class="bi bi-linkedin" style="font-size: 1.3rem;"></i>
-			<i class="bi bi-youtube" style="font-size: 1.3rem;"></i>
-		</div>
 		<div style="text-align:center"><a style="text-decoration: none; color: white" href="privacidad.html">Política de privacidad</a></div>
 		<div style="text-align:center"><span style="color: white">© Copyright 2023 - Programmy</span></div>
 		<div style="text-align:center">Developed by <strong>Esteban Castro</strong></div>
