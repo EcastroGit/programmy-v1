@@ -1,22 +1,19 @@
 # ProgrammY: Proyecto frontend vanilla.
 
-Este es mi primer proyecto web que empecé a construir a partir de la certificación en desarrollo frontend con Google y continué construyendo de manera autodidacta. El proyecto inicialmente era una página estática y posteriormente se aplica dinamica a través de JavaScript. Esta página web esta pensada para ser utilizada posteriormente de manera didáctica por personas que están iniciando en desarrollo web, y también como código fuente para utilizar posteriormente framework de JS y desarrollar una app mas sofisticada.
+Este es un sitio web desarrollado con HTML, CSS y JavaScript vanilla. El sitio esta pensado para ser utilizado de manera didáctica para estudiar algúnos conceptos básicos del desarollo web.
 
 ## Características:
 
-* Diseño responsive con HTML, CSS y Javascript Vanilla.
-* Creación de banners y botones call-to-action.
+* Diseño responsive con HTML, CSS y JavaScript vanilla.
 * Creación de íconos animados utilizando librerías externas.
 * Creación de listas desplegables con JavaScript.
-* Creación de app para arrastrar y soltar elementos con HTML, CSS y JavaScript.
 * Generación de juegos y actividades didácticas a través de JavaScript.
-* Generación dinámica de bloques de código HTML con Javascript Vanilla.
+* Generación dinámica de bloques de código HTML con JavaScript.
 * Uso del framework Bootstrap para estilizar algunos elementos.
-* Implementación de etiquetas de Google Analytics 4.
 
 _________________________________________
 
-## screenshot
+## Screenshot
 
 ![Programmy screenshot](./programmy-og.png)
 
