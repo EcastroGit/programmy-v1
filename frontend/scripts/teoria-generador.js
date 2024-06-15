@@ -1,4 +1,3 @@
-
 /* Funciones para el menú desplegable */
 
 const tema1 = document.querySelector("#tema1");
@@ -8,16 +7,16 @@ const subtemas2 = document.querySelector("#subtemas2");
 const tema3 = document.querySelector("#tema3");
 const subtemas3 = document.querySelector("#subtemas3");
 
-function desplegableTema1 () {
-	subtemas1.classList.toggle("hide");
+function desplegableTema1() {
+  subtemas1.classList.toggle("hide");
 }
 
-function desplegableTema2 () {
-	subtemas2.classList.toggle("hide");
+function desplegableTema2() {
+  subtemas2.classList.toggle("hide");
 }
 
-function desplegableTema3 () {
-	subtemas3.classList.toggle("hide");
+function desplegableTema3() {
+  subtemas3.classList.toggle("hide");
 }
 
 tema1.addEventListener("click", desplegableTema1);
@@ -41,10 +40,7 @@ const controlVersiones = document.querySelector("#control-versiones");
 const frameworksBackend = document.querySelector("#frameworks-backend");
 
 programacion.addEventListener("click", () => {
-	
-	generadorTeoria.innerHTML = 
-	
-	`
+  generadorTeoria.innerHTML = `
 	<br />
 	<h2>¿Qué es la programación?</h2>
 	<p> 
@@ -101,14 +97,11 @@ programacion.addEventListener("click", () => {
 		intérprete va leyendo el código y realizando en el momento las acciones que haría el programa. Se evita generar código separado y la 
 		experiencia es que se está ejecutando el código en el lenguaje de alto nivel, a pesar de que el procesador no lo entienda de forma nativa.
 	</p>
-	`
-;})
+	`;
+});
 
 algoritmos.addEventListener("click", () => {
-	
-	generadorTeoria.innerHTML = 
-	
-	`
+  generadorTeoria.innerHTML = `
 	<br />
 	<h2>Los algoritmos</h2>
 	<p> 
@@ -138,14 +131,11 @@ algoritmos.addEventListener("click", () => {
 		<li>Programación orientada a eventos</li>
 		</ul>
 	</p>
-	`
-;})
+	`;
+});
 
 areasDesarrollo.addEventListener("click", () => {
-	
-	generadorTeoria.innerHTML = 
-	
-	`
+  generadorTeoria.innerHTML = `
 	<br />
 	<h2>Áreas del desarrollo web</h2>
 	<p>
@@ -184,14 +174,11 @@ areasDesarrollo.addEventListener("click", () => {
 		<br />
 		En resumen, el desarrollo web es un campo amplio y variado que abarca múltiples áreas y habilidades. Desde el front-end y el back-end hasta la base de datos y la seguridad, cada área es esencial para el desarrollo de aplicaciones web exitosas y seguras.
 	</p>
-	`
-;})
+	`;
+});
 
 html.addEventListener("click", () => {
-	
-	generadorTeoria.innerHTML = 
-	
-	`
+  generadorTeoria.innerHTML = `
 	<br />
 	<h2>lenguaje de marcado HTML</h2>
 	<p>
@@ -226,14 +213,11 @@ html.addEventListener("click", () => {
 
 	</p>
 	
-	`
-;})
+	`;
+});
 
 css.addEventListener("click", () => {
-	
-	generadorTeoria.innerHTML =
-	
-	`
+  generadorTeoria.innerHTML = `
 	<br />
 	<h2>lenguaje de estilos CSS</h2>
 	<p>
@@ -270,16 +254,11 @@ css.addEventListener("click", () => {
 		En resumen, CSS es un lenguaje de estilos utilizado para separar la presentación del contenido en una página web. Con CSS, es posible crear diseños atractivos y consistentes para una página web al tiempo que se mantiene la estructura y el contenido de la página separados de los estilos.
 	
 	</p>
-	`
-
-	
-;})
+	`;
+});
 
 javascript.addEventListener("click", () => {
-	
-	generadorTeoria.innerHTML =
-	
-	`
+  generadorTeoria.innerHTML = `
 	<br />
 	<h2>JavaScript</h2>
 	<p>
@@ -312,14 +291,11 @@ javascript.addEventListener("click", () => {
 	<br />
 	En resumen, JavaScript es un lenguaje de programación de alto nivel utilizado para agregar interactividad y dinamismo a las páginas web. Con JavaScript, es posible manipular el DOM, realizar tareas como la validación de formularios y la animación, y desarrollar aplicaciones web de una sola página altamente interactivas y dinámicas.
 	<p/>
-	`
-;})
+	`;
+});
 
 frameworksFrontend.addEventListener("click", () => {
-	
-	generadorTeoria.innerHTML =
-	
-	`
+  generadorTeoria.innerHTML = `
 	<br />
 	<h2>Frameworks de frontend</h2>
 	<p>
@@ -360,14 +336,11 @@ frameworksFrontend.addEventListener("click", () => {
 		<br />
 		En resumen, los frameworks de frontend son herramientas de software que ayudan a los desarrolladores a crear aplicaciones web de manera más eficiente y rápida. Algunos de los frameworks de frontend más populares disponibles en la actualidad incluyen React, Angular, Vue.js, jQuery y Bootstrap. Cada uno de estos frameworks tiene sus propias características y ventajas, y la elección del framework adecuado dependerá de las necesidades específicas de cada proyecto y del nivel de experiencia del desarrollador.
 	</p>
-	`
-;})
+	`;
+});
 
 lenguajesBackend.addEventListener("click", () => {
-	
-	generadorTeoria.innerHTML =
-	
-	`
+  generadorTeoria.innerHTML = `
 	<br />
 	<h2>Lenguajes de backend</h2>
 	<p>
@@ -405,14 +378,11 @@ lenguajesBackend.addEventListener("click", () => {
 		En resumen, hay muchos lenguajes de programación diferentes que se pueden utilizar para desarrollar el backend de una aplicación web o móvil. Cada lenguaje tiene sus propias ventajas y desventajas y la elección del lenguaje adecuado dependerá de las necesidades específicas de cada proyecto y del conocimiento y experiencia del desarrollador. Además, es importante tener en cuenta que la elección del lenguaje no es lo único que influye en el rendimiento y la eficiencia de una aplicación, ya que también es importante considerar la arquitectura, la base de datos y otros factores.
 	
 	</p>
-	`
-;})
+	`;
+});
 
 basesDatos.addEventListener("click", () => {
-	
-	generadorTeoria.innerHTML =
-	
-	`
+  generadorTeoria.innerHTML = `
 	<br />
 	<h2>Bases de datos</h2>
 	<p>
@@ -455,14 +425,11 @@ basesDatos.addEventListener("click", () => {
 		En el desarrollo web, las bases de datos son una parte fundamental de la mayoría de las aplicaciones. Hay varios tipos de bases de datos disponibles, cada uno con sus propias ventajas y desventajas. Para interactuar con una base de datos, se utiliza un lenguaje de consulta y un controlador de base de datos. Es importante elegir la base de datos adecuada y utilizarla de manera efectiva para garantizar el rendimiento y la eficiencia de la aplicación.
 	
 	</p>
-	`
-;})
+	`;
+});
 
 apis.addEventListener("click", () => {
-	
-	generadorTeoria.innerHTML =
-	
-	`
+  generadorTeoria.innerHTML = `
 	<br />
 	<h2>Las API's (Application Programming Interface)</h2>
 	<p>
@@ -502,14 +469,11 @@ apis.addEventListener("click", () => {
 		En resumen, las API son una parte importante del desarrollo web moderno. Permiten a los desarrolladores crear aplicaciones y sitios web que interactúan de manera más personalizada y fluida con el backend de una aplicación, lo que puede mejorar la experiencia del usuario y permitir que las aplicaciones web realicen funciones más avanzadas y complejas.
 	</p>
 	
-	`
-;})	
+	`;
+});
 
 controlVersiones.addEventListener("click", () => {
-	
-	generadorTeoria.innerHTML =
-	
-	`
+  generadorTeoria.innerHTML = `
 	<br />
 	<h2>Control de versiones</h2>
 	<p>
@@ -543,14 +507,11 @@ controlVersiones.addEventListener("click", () => {
 		En resumen, el control de versiones es una práctica fundamental en el desarrollo web moderno. Permite a los desarrolladores trabajar en equipo, realizar un seguimiento de los cambios realizados en el código y recuperar versiones anteriores del mismo en caso de errores o problemas. Git y SVN son los sistemas de control de versiones más populares en el desarrollo web, y son ampliamente utilizados por desarrolladores en todo el mundo.
 		
 	</p>
-	`
-;})
+	`;
+});
 
 frameworksBackend.addEventListener("click", () => {
-	
-	generadorTeoria.innerHTML =
-	
-	`
+  generadorTeoria.innerHTML = `
 	<br />
 	<h2>Frameworks de backend</h2>
 	<p>
@@ -588,6 +549,5 @@ frameworksBackend.addEventListener("click", () => {
 		En resumen, los frameworks de backend son herramientas esenciales para acelerar el proceso de desarrollo de aplicaciones web. Express.js, Ruby on Rails, Django, Laravel y Spring son solo algunos de los frameworks de backend más populares y utilizados en el mundo del desarrollo web. Cada uno tiene sus propias fortalezas y debilidades, y la elección del framework adecuado dependerá del proyecto y de las necesidades del desarrollador.
 	
 	</p>
-	`
-;})
-	
+	`;
+});

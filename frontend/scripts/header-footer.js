@@ -2,58 +2,12 @@ const login = document.querySelector("#login");
 const header = document.querySelector("#header");
 const footer = document.querySelector("#footer");
 
-/* login */
-
-login.innerHTML =`
-	<div id="login-div1"></div>
-	
-	<div id="login-div2">
-		
-		<div id="login-options">
-			<span id="login-start"><i class="fa-solid fa-right-to-bracket fa-1x"></i>Login</span>
-			<span id="register-start">Registrarse</span>
-		</div>
-		
-		<div id="login-form" class="login-inactivo">
-			
-			<span id="close-login"><i class="bi bi-x-circle"></i></span>
-			
-			<h3>Inicio de sesión</h3>
-			<br />
-			
-			<form>
-				  
-			   <br />
-
-			  <label for="username">Usuario:</label>
-			  <input type="text" id="username" name="username" size="auto">
-
-			  <br />
-
-			  <label for="password">Contraseña:</label>
-			  <input type="password" id="password" name="password" size="auto">
-				 
-			  <br />
-				  
-			  <button type="submit" id="login-btn">Iniciar sesión</button>
-			  
-			  <br />
-			  
-			  <span>¿Olvidó su contraseña?</span>
-			
-			</form>
-		
-		</div>
-
-	</div>
-`;
-
 /* header */
 
 header.innerHTML = `
 	<div id="logo">
 		<i class='bx bxs-devices bx-md'></i>
-		<a style="text-decoration: none; color: white" href="index.html"><p id="logo-text">ProgrammY</p></a>
+		<a style="text-decoration: none; color: white" href="index.html">ProgrammY</a>
 	</div>
 	
 	<div id="search-bar-container">
@@ -79,7 +33,6 @@ header.innerHTML = `
 
 	<div>
 		<nav id="list-nav">
-			<a href="index.html">Inicio</a>
 			<a href="teoria.html">Teoría</a>
 			<a href="recursos.html">Recursos</a>
 		</nav>
@@ -104,21 +57,21 @@ footer.innerHTML = `
 	
 		<div style="text-align:center"><a style="text-decoration: none; color: white" href="privacidad.html">Política de privacidad</a></div>
 		<div style="text-align:center"><span style="color: white">© Copyright 2023 - Programmy</span></div>
-		<div style="text-align:center">Developed by <strong>Esteban Castro</strong></div>
+		<div style="text-align:center">Desarrollado por <strong>Esteban Castro</strong></div>
 		
 	</div>
 `;
 
-// Funciónes para abrir y cerrar barra de búsqueda 
+// Funciónes para abrir y cerrar barra de búsqueda
 
 const searchIcon = document.querySelector("#search-icon");
 const searchForm = document.querySelector("#search-form");
-const searchFormClose = document.querySelector("#search-form-close")
+const searchFormClose = document.querySelector("#search-form-close");
 
 searchIcon.addEventListener("click", () => {
-	searchForm.classList.toggle("search-bar-hidden");
-})
+  searchForm.classList.toggle("search-bar-hidden");
+});
 
 searchFormClose.addEventListener("click", () => {
-	searchForm.classList.add("search-bar-hidden");
-})
+  searchForm.classList.add("search-bar-hidden");
+});

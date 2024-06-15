@@ -1,4 +1,3 @@
-
 // Obtener las imagenes en miniatura
 var img1 = document.getElementById("myImg");
 var img2 = document.getElementById("myImg2");
@@ -14,29 +13,29 @@ var span = document.getElementsByClassName("close")[0];
 var modalImg = document.getElementById("img01");
 
 // Cuando el usuario haga clic en la imagen miniatura, abra la imagen modal
-img1.onclick = function() {
+img1.onclick = function () {
   modal.style.display = "block";
   modalImg.src = this.src;
-}
+};
 
-img2.onclick = function() {
+img2.onclick = function () {
   modal.style.display = "block";
   modalImg.src = this.src;
-}
+};
 
-img3.onclick = function() {
+img3.onclick = function () {
   modal.style.display = "block";
   modalImg.src = this.src;
-}
+};
 
 // Cuando el usuario haga clic en <span> (x), cierre la imagen modal
-span.onclick = function() {
+span.onclick = function () {
   modal.style.display = "none";
-}
+};
 
 // Cuando el usuario haga clic en cualquier parte fuera de la imagen modal, cierre la imagen modal
-window.onclick = function(event) {
+window.onclick = function (event) {
   if (event.target == modal) {
     modal.style.display = "none";
   }
-}
+};

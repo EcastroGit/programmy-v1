@@ -4,17 +4,13 @@ const recom3 = document.querySelector("#recom3");
 const recom4 = document.querySelector("#recom4");
 const recomElements = document.querySelector("#recom-elements");
 
-
 recom1.addEventListener("click", () => {
-	
-	recom1.style.backgroundColor = "#E0E0E0";
-	recom2.style.backgroundColor = "#ADADAD";
-	recom3.style.backgroundColor = "#ADADAD";
-	recom4.style.backgroundColor = "#ADADAD";
-	
-	recomElements.innerHTML = 
-	
-	`<div id="recom-image">
+  recom1.style.backgroundColor = "#E0E0E0";
+  recom2.style.backgroundColor = "#ADADAD";
+  recom3.style.backgroundColor = "#ADADAD";
+  recom4.style.backgroundColor = "#ADADAD";
+
+  recomElements.innerHTML = `<div id="recom-image">
 		
 		<img src="images/recomendaciones/frontend-backend.webp" alt="desarrollo frontend backend" />
 		
@@ -32,19 +28,16 @@ recom1.addEventListener("click", () => {
 			encuentras la teoría y los recursos necesarios para que empieces a adquirir las bases necesarias para escoger tu especialidad.
 		</p>
 	
-	</div>`
+	</div>`;
 });
 
 recom2.addEventListener("click", () => {
-	
-	recom1.style.backgroundColor = "#ADADAD";
-	recom2.style.backgroundColor = "#E0E0E0";
-	recom3.style.backgroundColor = "#ADADAD";
-	recom4.style.backgroundColor = "#ADADAD";
-	
-	recomElements.innerHTML = 
-	
-	`<div id="recom-image">
+  recom1.style.backgroundColor = "#ADADAD";
+  recom2.style.backgroundColor = "#E0E0E0";
+  recom3.style.backgroundColor = "#ADADAD";
+  recom4.style.backgroundColor = "#ADADAD";
+
+  recomElements.innerHTML = `<div id="recom-image">
 		
 		<img src="images/recomendaciones/gestion-del-tiempo-estudio.webp" alt="Gestión del tiempo"/>
 		
@@ -63,19 +56,16 @@ recom2.addEventListener("click", () => {
 			
 		</p>
 
-	</div>`
+	</div>`;
 });
 
 recom3.addEventListener("click", () => {
-	
-	recom1.style.backgroundColor = "#ADADAD";
-	recom2.style.backgroundColor = "#ADADAD";
-	recom3.style.backgroundColor = "#E0E0E0";
-	recom4.style.backgroundColor = "#ADADAD";
-	
-	recomElements.innerHTML = 
-	
-	`<div id="recom-image">
+  recom1.style.backgroundColor = "#ADADAD";
+  recom2.style.backgroundColor = "#ADADAD";
+  recom3.style.backgroundColor = "#E0E0E0";
+  recom4.style.backgroundColor = "#ADADAD";
+
+  recomElements.innerHTML = `<div id="recom-image">
 		
 		<img src="images/recomendaciones/programacion-practica.webp" alt="práctica en la programación"/>
 		
@@ -92,22 +82,18 @@ recom3.addEventListener("click", () => {
 			sistemas de registro de usuario y login, menús de navegación movil, páginas web responsive, etc.
 		</p>
 
-	</div>`
-	
+	</div>`;
 });
 
 recom4.addEventListener("click", () => {
-	
-	recom1.style.backgroundColor = "#ADADAD";
-	recom2.style.backgroundColor = "#ADADAD";
-	recom3.style.backgroundColor = "#ADADAD";
-	recom4.style.backgroundColor = "#E0E0E0";
-	
-	recomElements.innerHTML = 
-	
-	`<div id="recom-image">
+  recom1.style.backgroundColor = "#ADADAD";
+  recom2.style.backgroundColor = "#ADADAD";
+  recom3.style.backgroundColor = "#ADADAD";
+  recom4.style.backgroundColor = "#E0E0E0";
+
+  recomElements.innerHTML = `<div id="recom-image">
 		
-		<img src="images/recomendaciones/hombre-programando.webp" alt="hombre programando" />
+		<img src="images/recomendaciones/proyectos-web.jpg" alt="hombre programando" />
 		
 	</div>
 
@@ -122,5 +108,5 @@ recom4.addEventListener("click", () => {
 			a medida que el proyecto lo vaya requiriendo.
 		</p>
 
-	</div>`
+	</div>`;
 });
